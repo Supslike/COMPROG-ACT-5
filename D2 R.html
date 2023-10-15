@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            top: 0;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: black;
+        }
+
+        .door {
+            background-image: url("static/door\ close.png");
+            background-repeat: no-repeat;
+            background-size: cover;
+            transition: background-image 0.5s;
+            height: 300px;
+            width: 200px;
+        }
+
+        .door:hover {
+            background-image: url("static/door\ open.png");
+        }
+    </style>
+</head>
+<body>
+    <a href="res D2 R.html" target="_parent">
+        <div class="door"></div>
+    </a>
+</body>
+</html>
